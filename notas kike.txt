@@ -1,0 +1,77 @@
+vscode
+
+ALT+N ARCHIVO NUEVO
+ALT+W ENCERRAR PARTE DE CODIGO EN NUEVA ETIQUETA EJM UNAS ETIQUETAS DENTRO DE UN <DIV>
+
+
+
+
+
+
+
+
+
+
+Instalación c++ en sublimetext3
+descargar Mingw
+	Mingw32-gcc-ada.bin
+	Mingw32-gcc-g++.bin
+
+En sublime text 3 ir a:
+	tools -- build system -- new build system:
+copiar todo lo que sigue en lugar del código que sale.
+por último guardar como nombrearchivo.sublime-build.
+
+compilar con ctrl + b
+
+código a copiar:
+
+
+{
+ "cmd": ["g++.exe", "-o", "$file_base_name", "$file"],
+ "path": "C:\\MinGW\\bin\\",
+ "variants": [
+  {
+   "cmd": ["start", "cmd", "/k", "$file_base_name"],
+   "shell": true,
+   "name": "Run"
+  }
+ ]
+}
+
+----------------------------------------------------------------
+
+
+
+
+
+
+font awesome css
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+BOOTSTRAP
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+google icons
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<i class="material-icons">cloud</i>
+	<i class="material-icons" style="font-size:48px;">cloud</i>
+	<i class="material-icons" style="font-size:60px;color:red;">cloud</i>
+
+	PARA METER EN UN BOTON CON TEXTO
+	<button style="font-size:24px">Button <i class="material-icons">dashboard</i></button>	
+
+bootstrap template
+
+
+
+
+
+
